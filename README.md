@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CodeCraft Summit 2025
 
-## Getting Started
+## ✨ Sobre o Projeto
+Este projeto foi desenvolvido durante a **NLW Connect**, um evento imersivo de 3 dias promovido pela Rocketseat. O objetivo é criar uma plataforma para o **CodeCraft Summit 2025**, um evento voltado para desenvolvedores que desejam explorar tendências de software, arquitetura de sistemas e tecnologias emergentes.
 
-First, run the development server:
+## 🚀 Funcionalidades
+- **Inscrição no evento** com validação de e-mail.
+- **Confirmação de inscrição** e fornecimento de link de acesso.
+- **Sistema de indicações**, onde os participantes podem compartilhar o evento para ganhar prêmios.
+- **Ranking de indicações** para acompanhar os melhores divulgadores do evento.
+- **Design responsivo**, garantindo uma excelente experiência em desktop e mobile.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠 Tecnologias Utilizadas
+- **React.js** - Biblioteca para criação da interface.
+- **TypeScript** - Para maior segurança e manutenção do código.
+- **Tailwind CSS** - Para estilização rápida e responsiva.
+- **Vite** - Ferramenta de build rápida para o ambiente de desenvolvimento.
+
+## 📝 Como Executar o Projeto
+
+### 1. Clone o repositório:
+```sh
+git clone https://github.com/seu-usuario/codecraft-summit-2025.git
+cd codecraft-summit-2025
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instale as dependências:
+```sh
+npm install
+# ou
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Inicie o projeto:
+```sh
+npm run dev
+# ou
+yarn dev
+```
 
-## Learn More
+A aplicação estará disponível em `http://localhost:5173`.
 
-To learn more about Next.js, take a look at the following resources:
+## 💪 Contribuição
+Fique à vontade para abrir issues e pull requests para melhorias no projeto!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Agradecimentos
+Este projeto foi construído durante a **NLW Connect** da Rocketseat, um evento incrível para aprendizado e crescimento profissional.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+Feito com ❤️ por [Isis Yume](https://github.com/iyumw).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
