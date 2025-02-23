@@ -1,8 +1,8 @@
 'use client'
 
 import { Copy, Link } from 'lucide-react'
-import { IconButton } from '../../components/IconButton'
-import { InputField, InputIcon, InputRoot } from '../../components/Input'
+import { IconButton } from '../../../components/IconButton'
+import { InputField, InputIcon, InputRoot } from '../../../components/Input'
 
 interface InviteLinkInputProps {
   inviteLink: string
@@ -11,7 +11,6 @@ interface InviteLinkInputProps {
 export function InviteLinkInput({ inviteLink }: InviteLinkInputProps) {
   function copyInviteLink() {
     navigator.clipboard.writeText(inviteLink)
-    alert('Link copiado para a área de transferência!')
   }
 
   return (
