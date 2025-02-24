@@ -1,7 +1,7 @@
 # CodeCraft Summit 2025
 
 ## ✨ Sobre o Projeto
-Este projeto foi desenvolvido durante a **NLW Connect**, um evento imersivo de 3 dias promovido pela Rocketseat. O objetivo é criar uma plataforma para o **CodeCraft Summit 2025**, um evento voltado para desenvolvedores que desejam explorar tendências de software, arquitetura de sistemas e tecnologias emergentes.
+Este projeto foi desenvolvido durante a **NLW Connect**, um evento imersivo de 3 dias promovido pela Rocketseat. O objetivo é criar uma plataforma para a criação e gerenciamento de convites personalizados. O sistema rastreia o número de acessos ao link do convite e contabiliza as inscrições realizadas por meio dele. Com base nesses dados, a plataforma gera um ranking em tempo real, permitindo a análise do desempenho dos convites compartilhados.
 
 ## 🚀 Funcionalidades
 - **Inscrição no evento** com validação de e-mail.
